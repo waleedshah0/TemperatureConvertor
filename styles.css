@@ -1,0 +1,120 @@
+body
+{
+margin-top: 60px;
+text-align:center;
+background-color: black;
+}
+
+h1 {
+padding-bottom: 0.5rem;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: white;
+font-size: 50px;
+}
+
+input[type=number] {
+    cursor: pointer;
+    border-radius: 5px; /* Add this */
+  }
+  
+
+  .container {
+    border: 1px solid;
+    border-radius: 20px;
+    width: 536px;
+    height: 390px;
+    margin: auto;
+    padding: 15px;
+    background-color: whitesmoke;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add this */
+  }
+  
+
+#input-celsius{
+background-color: #f80000;
+font-size: 2.5rem;
+color: black;
+}
+
+#input-fahrenheit{
+background-color: #26ff00;
+font-size: 2.5rem;
+color: black;
+}
+
+#input-kelvin{
+background-color: #0000ff;
+font-size: 2.5rem;
+color: black;
+}
+
+.box
+{
+padding: 20px;
+margin: auto;
+}
+
+button
+{
+background-color: black;
+color: yellow;
+height: 38px;
+width: 100px;
+border-radius: 5px;
+font-size: 20px;
+}
+
+button:hover {
+    background-color: yellow;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  button:hover {
+    cursor: pointer;
+  }
+  
+
+.form-padding {
+padding: 2rem 1rem;
+}
+.form-control {
+    padding: 0.5rem 1rem; /* Adjust as needed */
+  }
+  
+
+::-webkit-input-placeholder {
+color: #FFFFFF !important;
+}
+::-moz-placeholder {
+color: #FFFFFF !important;
+}
+:-ms-input-placeholder {
+color: #FFFFFF !important;
+}
+:-moz-placeholder {
+color: #FFFFFF !important;
+}
+
+footer {
+    padding-top: 1.5rem;
+    font-size: 0.7rem;
+    line-height: 1.5rem; /* Increase the line-height for better spacing */
+    text-align: center;
+    background-color: black; /* Add a background color */
+    color: white; /* Text color */
+  }
+  
+  /* Add some margin to icons in the footer for spacing */
+  .icons {
+    max-width: 25px;
+    height: auto;
+    margin-right: 5px; /* Adjust as needed */
+  }
+  
+
+
+
+
+
+
